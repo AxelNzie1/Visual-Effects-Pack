@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visual Effects Pack</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #000;
+      color: #ffffff;
+    }
+    .background-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.4);
+    }
+    @media (max-width: 768px) {
+      .background-video {
+        display: none;
+      }
+    }
+    .container {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      animation: fadeIn 2s ease-out forwards;
+      opacity: 0;
+      text-align: center;
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #dddddd;
+    }
+    .preview {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    .button {
+      display: inline-block;
+      background: #ff5f6d;
+      background: linear-gradient(to right, #ff5f6d, #ffc371);
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform 0.2s;
+    }
+    .button:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      text-align: center;
+      line-height: 1.6;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .section {
+      background-color: rgba(0,0,0,0.8);
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 1000px;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ffffff;
+    }
+    .features, .steps {
+      text-align: left;
+    }
+    .features ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .steps .step {
+      background-color: rgba(255,255,255,0.05);
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .steps img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <video class="background-video" autoplay muted loop playsinline poster="fallback.jpg">
+    <source src="" type="video/mp4">
+    Your browser does not support background video.
+  </video>
+
+
+  <div class="container">
+    <h1>Professional Visual Effects Pack</h1>
+    <p>Add a cinematic touch to your videos with this exclusive pack of visual effects. Easy to integrate, compatible with all editing software.</p>
+    <video class="preview" autoplay muted loop playsinline poster="fallback.jpg">
+        <source src="video/presets premiere pro_1.mp4" type="video/mp4">
+    </video>
+
+    <a href="https://pay.lygosapp.com/link/af13eacf-3570-41a4-825d-a300803eb9df" class="button">Buy Now - $16.99</a>
+  </div>
+
+  <div class="section features">
+    <h2>Pack Features</h2>
+    <ul>
+      <li>Over 900 HD and 4K video transition effects</li>
+      <li>Exclusively compatible with Premiere Pro</li>
+      <li>Includes .mov and .mp4 formats</li>
+      <li>Unlimited use for personal and commercial projects</li>
+      <li>Simple drag-and-drop installation</li>
+    </ul>
+  </div>
+
+  <div class="section guide">
+    <h2>Usage Guide - Simple Steps</h2>
+    <div class="steps">
+      <div class="step">
+        <img src="images/download.png" alt="Step 1">
+        <p>1. Download the file after purchase</p>
+      </div>
+      <div class="step">
+        <img src="images/zip.png" alt="Step 2">
+        <p>2. Extract the contents of the zip folder</p>
+      </div>
+      <div class="step">
+        <img src="images/importer.png" alt="Step 3">
+        <p>3. In the effects panel, right-click on the "presets" folder and select Import</p>
+      </div>
+      <div class="step">
+        <img src="images/appli.png" alt="Step 4">
+        <p>4. Just drag the effects into your timeline to get a high-quality video.</p>
+      </div>
+      <div class="step">
+        <img src="images/render.png" alt="Step 5">
+        <p>5. Export your video!</p>
+      </div>
+
+      <div class="footer">
+        <footer>
+            <p>Pack available for immediate download after payment via Mobile Money</p>
+            <p>📩 Contact me for any questions: <a href="nzie.zael16@gmail.com">Email</a></p>
+            <p>🔗 See my work on <a href="https://www.behance.net/tonprofil" target="_blank">Behance</a> and <a href="https://www.linkedin.com/in/tonprofil" target="_blank">LinkedIn</a></p>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
